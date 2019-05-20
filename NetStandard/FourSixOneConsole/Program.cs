@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FourSixOneConsole
+﻿namespace FourSixOneConsole
 {
+    using System.Threading.Tasks;
+
     class Program
     {
         static void Main(string[] args)
         {
-            var ret = NetStandardLibrary.Helper.RunSync(Task.FromResult(42));
-            System.Console.WriteLine($"Return is {ret}");
+            NetStandardLibrary.Helper.RunSync(Task.FromResult(42));
         }
     }
 }
