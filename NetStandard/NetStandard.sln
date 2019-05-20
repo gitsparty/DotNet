@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary", "CommonLibrary\CommonLibrary.csproj", "{B24578C0-AB99-4D1C-AB5F-D95E4466ECC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetStandardLibrary", "NetStandardLibrary\NetStandardLibrary.csproj", "{B24578C0-AB99-4D1C-AB5F-D95E4466ECC2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourFiveConsole", "FourFiveConsole\FourFiveConsole.csproj", "{723308BD-C7B8-46C8-9F51-C4C6821767E0}"
 EndProject
@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourSixOneConsole", "FourSi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourSevenTwoConsole", "FourSevenTwoConsole\FourSevenTwoConsole.csproj", "{2843B932-EB62-4973-A3F7-5721A489AA0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoOneNetCoreConsole", "NetCoreConsole\TwoOneNetCoreConsole.csproj", "{880CE81A-D8D0-45D7-B477-82AB5DF848FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoOneNetCoreConsole", "NetCoreConsole\TwoOneNetCoreConsole.csproj", "{880CE81A-D8D0-45D7-B477-82AB5DF848FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullFrameworkLibrary", "FullFrameworkLibrary\FullFrameworkLibrary.csproj", "{ADDB9C48-FE4F-40E5-8073-28C71B205639}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{880CE81A-D8D0-45D7-B477-82AB5DF848FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{880CE81A-D8D0-45D7-B477-82AB5DF848FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{880CE81A-D8D0-45D7-B477-82AB5DF848FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADDB9C48-FE4F-40E5-8073-28C71B205639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADDB9C48-FE4F-40E5-8073-28C71B205639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADDB9C48-FE4F-40E5-8073-28C71B205639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDB9C48-FE4F-40E5-8073-28C71B205639}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

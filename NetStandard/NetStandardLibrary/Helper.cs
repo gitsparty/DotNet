@@ -1,4 +1,4 @@
-﻿namespace CommonLibrary
+﻿namespace NetStandardLibrary
 {
     using System.Threading.Tasks;
     public static class Helper

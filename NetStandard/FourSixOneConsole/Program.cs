@@ -10,7 +10,7 @@ namespace FourSixOneConsole
     {
         static void Main(string[] args)
         {
-            var ret = CommonLibrary.Helper.RunSync(Task.FromResult(42));
+            var ret = NetStandardLibrary.Helper.RunSync(Task.FromResult(42));
             System.Console.WriteLine($"Return is {ret}");
         }
     }
