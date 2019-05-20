@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6845072A-FF35-4698-B4E0-63BB16924118}</ProjectGuid>
+    <ProjectGuid>{F47A0AED-8D35-45D3-81AF-9BEE8298DBD7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FourSixTwoConsole</RootNamespace>
-    <AssemblyName>FourSixTwoConsole</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RootNamespace>FourSizeOneConsoleWithFullFrameworkNetStandard</RootNamespace>
+    <AssemblyName>FourSizeOneConsoleWithFullFrameworkNetStandard</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>

@@ -48,11 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="readme.md" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NetStandardLibrary\NetStandardLibrary.csproj">
-      <Project>{b24578c0-ab99-4d1c-ab5f-d95e4466ecc2}</Project>
-      <Name>NetStandardLibrary</Name>
+    <ProjectReference Include="..\NetStandardLibraryWithFullFrameworkReference\NetStandardLibraryWithFullFrameworkReference.csproj">
+      <Project>{5692921d-449b-4286-87fb-54123d8af5e0}</Project>
+      <Name>NetStandardLibraryWithFullFrameworkReference</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

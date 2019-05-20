@@ -6,7 +6,8 @@
     {
         static void Main(string[] args)
         {
-            NetStandardLibrary.Helper.RunSync(Task.FromResult(42));
+            var ret = NetStandardLibrary.Helper.RunSync(Task.FromResult(42));
+            System.Console.WriteLine("Ret is " + ret);
         }
     }
 }

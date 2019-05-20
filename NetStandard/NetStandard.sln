@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoOneNetCoreConsole", "Net
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullFrameworkLibrary", "FullFrameworkLibrary\FullFrameworkLibrary.csproj", "{ADDB9C48-FE4F-40E5-8073-28C71B205639}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStandardLibraryWithFullFrameworkReference", "NetStandardLibraryWithFullFrameworkReference\NetStandardLibraryWithFullFrameworkReference.csproj", "{5692921D-449B-4286-87FB-54123D8AF5E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourSixOneConsoleWithFullFrameworkNetStandard", "FourSixOneConsoleWithFullFrameworkNetStandard\FourSixOneConsoleWithFullFrameworkNetStandard.csproj", "{F47A0AED-8D35-45D3-81AF-9BEE8298DBD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{ADDB9C48-FE4F-40E5-8073-28C71B205639}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADDB9C48-FE4F-40E5-8073-28C71B205639}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADDB9C48-FE4F-40E5-8073-28C71B205639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5692921D-449B-4286-87FB-54123D8AF5E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5692921D-449B-4286-87FB-54123D8AF5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5692921D-449B-4286-87FB-54123D8AF5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5692921D-449B-4286-87FB-54123D8AF5E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47A0AED-8D35-45D3-81AF-9BEE8298DBD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47A0AED-8D35-45D3-81AF-9BEE8298DBD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47A0AED-8D35-45D3-81AF-9BEE8298DBD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47A0AED-8D35-45D3-81AF-9BEE8298DBD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-﻿namespace NetStandardLibrary
+﻿namespace NetStandardLibraryWithFullFrameworkReference
 {
     using System.Threading.Tasks;
 
@@ -7,6 +7,7 @@
         public static T RunSync<T>(Task<T> task)
         {
             var ret = task.Result;
+            FullFrameworkLibrary.Helper.WriteToConsole($"Return in {ret}");
 
             return ret;
         }

@@ -6,7 +6,7 @@
     {
         static void Main(string[] args)
         {
-            NetStandardLibrary.Helper.RunSync(Task.FromResult(42));
+            NetStandardLibraryWithFullFrameworkReference.Helper.RunSync(Task.FromResult(42));
         }
     }
 }
