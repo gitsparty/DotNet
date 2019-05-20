@@ -1,5 +1,4 @@
-This project, FourSixOneConsole, is targeting .NET 4.6.1 framework. It has a project reference to NetStandandarLibrary project which produces a .NET Standard 2.0 assembly. It compiles successfully and run to produce the expected output. 
+This project, FourSixOneConsoleWithFullFrameworkNetStandard, is targeting .NET 4.6.1 framework. It has a project reference to NetStandardLibraryWithFullFrameworkReference project which produces a .NET Standard 2.0 assembly with a reference to .netframework assembly. It fails to compile. The reason is in the warning. 
 
-Homework Question
-+++++++++++++++++
-Why does this compile and work but FourSizeOneConsoleWithFullFrameworkNetStandard doesn't?
+warning MSB3275: The primary reference "K:\git\gitsparty\DotNet\NetStandard\NetStandardLibraryWithFullFrameworkReference\bin\Debug\netstandard2.0\NetStandardLibraryWithFullFrameworkReference.dll" could not be resolved because it has an indirect dependency on the assembly "FullFrameworkLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" which was built against the ".NETFrame
+work,Version=v4.6.2" framework. This is a higher version than the currently targeted framework ".NETFramework,Version=v4.6.1". [K:\git\gitsparty\DotNet\NetStandard\FourSixOneConsoleWithFullFrameworkNetStandard\FourSixOneConsoleWithFullFrameworkNetStandard.csproj]"
